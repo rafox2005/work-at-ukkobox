@@ -45,19 +45,19 @@ data dispersal techniques. a.k.a. Cloud of clouds data storage.
 
 Your applicaton should implement the following stories using HTTP REST APIs:
 
-#1-UPLOAD A FILE
-An user might be able to upload a file using the endpoint "/upload" that will:
-1-receive a file;
-2-replicate the file on two cloud providers (Amazon/DigitalOcean/Google/Dropbox/FTP/others);
-3-store the information to retrieve the file on a SQLite database (name, type, provider, date);
-4-send a response to the user (STATUS 200 if no error, or 500 if there is an error).
+#1-UPLOAD A FILE<br />
+An user might be able to upload a file using the endpoint "/upload" that will:<br />
+- Receive a file;
+- Replicate the file on two cloud providers (Amazon/DigitalOcean/Google/Dropbox/FTP/others);
+- Store the information to retrieve the file on a SQLite database (name, type, provider, date);
+- Send a response to the user (STATUS 200 if no error, or 500 if there is an error).
 
-#2-DOWNLOAD A FILE
-An user might request to download a file from the stored database using the endpoint "/download" that will:
-1-receive the filename;
-2-check the SQLite database for the filename;
-3-using the SQLite database information from the file, the application should retrieve the file from any of the cloud providers;
-4-send the file back to the user or send an error if there is any problem or the file is not found;
+#2-DOWNLOAD A FILE<br />
+An user might request to download a file from the stored database using the endpoint "/download" that will:<br />
+- Receive the filename;
+- Check the SQLite database for the filename;
+- Using the SQLite database information from the file, the application should retrieve the file from any of the cloud providers;
+- Send the file back to the user or send an error if there is any problem or the file is not found;
 
 
 ## Project Requirements
