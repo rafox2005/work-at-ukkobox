@@ -26,7 +26,7 @@ files on the cloud.
    [bitbucket.org](https://bitbucket.org) (for free) and add read permission
    for user [@rafox](https://bitbucket.org/rafox) on project.
 2. Follow the instructions of `README.md`.
-3. Deploy you project on Heroku
+3. Deploy your project on Heroku
 4. Apply for the position sending an e-mail to libardi@ukkobox.com with:
   - Link to the fork on Github.
   - Link to the project in Heroku.
